@@ -25,16 +25,16 @@ daisyui: {
     {
       lightTheme: {
         primary: "#778ad4",
-        secondary: "#f4f4a1",
+        secondary: "#fcf5ed",
         accent: "#1be885",
-        neutral: "#272136",
+        neutral: "#FFEFD5",
         "base-100": "#ffffff",
         info: "#778ad4",
         success: "#23b893",
         warning: "#f79926",
         error: "#ea535a",
         body: {
-          "background-color": "#FFCBA4",
+          "background-color": "#fcf5ed",
         },
       },
     },
