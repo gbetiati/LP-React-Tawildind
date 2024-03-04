@@ -6,7 +6,7 @@ import vellas from "../assets/vellas.png"
 const Navbar = () => {
   return (
   <div className="container">
-  <div className="navbar bg-secondary w-full">
+  <div className="navbar w-full">
   <div className="flex-1">
 
 

@@ -24,7 +24,7 @@ daisyui: {
   themes: [
     {
       lightTheme: {
-        primary: "#778ad4",
+        primary: "#6e6138",
         secondary: "#fcf5ed",
         accent: "#1be885",
         neutral: "#FFEFD5",
@@ -34,7 +34,7 @@ daisyui: {
         warning: "#f79926",
         error: "#ea535a",
         body: {
-          "background-color": "#fcf5ed",
+          "background-color": "#fcfaf5",
         },
       },
     },
