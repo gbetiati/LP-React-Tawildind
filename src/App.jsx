@@ -43,8 +43,8 @@ function App() {
         <Services/>
 
         <div className='container mb-16'>
-        <div className="divider divider-primary">Catálago</div>
-        <div class="my-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-34">
+        <div className="divider divider-primary my-16 text text-4xl font-bold">Catálago</div>
+        <div class="my-4 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-34">
         {itens.map(item => <Card
           key={item.nome}
           nome={item.nome}

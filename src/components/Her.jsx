@@ -4,7 +4,7 @@ const Her = () => {
     return (
         <>
      <div className='container'>
-        <div className="hero h-96 md:h-[500px] rounded-box overflow-hidden mb-10 mt-10" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1602607203559-d38903b80507?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")` }}>
+        <div className="hero h-96 md:h-[650px] rounded-box overflow-hidden mb-16 mt-10" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1602607203559-d38903b80507?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")` }}>
           <div className="hero-overlay bg-opacity-60 bg-secondary"></div>
           <div className="hero-content text-center text-secondary-content">
             <div className="max-w-lg">

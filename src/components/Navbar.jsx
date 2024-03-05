@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
   <img 
-      className="h-12 sm:h-14" 
+      className="h-14 sm:h-16" 
       src={vellas} alt="a"
   />
 
@@ -19,7 +19,7 @@ const Navbar = () => {
   
   </div>
   <div className="flex-none">
-    <ul className="menu menu-horizontal px-1 text-[16px] font-light">
+    <ul className="menu menu-horizontal px-1 text-[14px]  sm:text-[16px] ">
       <li><a>Sobre nós</a></li>
       <li><a>Contatos </a></li>
     </ul>
