@@ -16,7 +16,7 @@ theme: {
     },
   },
   fontFamily: {
-    'sans': ['Montserrat', 'sans-serif']
+    'custom': ['ubuntu-mono', 'Ubuntu', 'sans-serif'],
   }
 },
 plugins: [require('daisyui')], 

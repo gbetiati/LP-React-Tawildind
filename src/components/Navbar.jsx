@@ -19,8 +19,8 @@ const Navbar = () => {
   
   </div>
   <div className="flex-none">
-    <ul className="menu menu-horizontal px-1 text-[14px]  sm:text-[16px] ">
-      <li><a>Sobre nós</a></li>
+    <ul className="menu menu-horizontal font-semibold px-1 text-[14px]  sm:text-[16px] ">
+      <li><a href="#sobrenos">Sobre nós</a></li>
       <li><a>Contatos </a></li>
     </ul>
   </div>

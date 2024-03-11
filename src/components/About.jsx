@@ -6,7 +6,7 @@ const About = () => {
     return ( 
       
        
-     <div className="container text-left mb-16">
+     <div className="container text-left mb-36 mt-36">
        <div className="hero min-h-[600px] rounded-tl-lg bg-gradient-to-r from-[#FFE4C4]">
         <div className="hero-content mr-16 p-2 flex-col md:flex-row-reverse justify-center items-center gap-6">
         <img src={vellas}  className="p-10 ml-14" />
