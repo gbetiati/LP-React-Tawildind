@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
     return (
-        <footer className="footer footer-center h-[22em] p-16 bg-gray-400 text-base-content rounded">
+        <footer className="footer footer-center h-[20em] p-16 bg-gray-400 text-base-content rounded">
         <nav>
           <div className="grid grid-flow-col gap-6">
             <a href="https://www.instagram.com/vellasessence.sn/">

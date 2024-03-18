@@ -10,7 +10,9 @@ import londres from "./assets/LONDRES.jpg"
 import canela from "./assets/CANELA.jpg"
 import cancun from "./assets/CANCUN.jpg"
 import lavandaf from "./assets/LAVANDA FRANCESA.jpg"
-import flor from "./assets/LAVANDA FRANCESA.jpg"
+import florc from "./assets/florCerejeira.jpg"
+import florl from "./assets/florLaranjeira.jpg"
+import vanilla from "./assets/VANILLA.jpg" 
 
 function App() {
  
@@ -33,11 +35,14 @@ function App() {
     {
       nome: 'FLOR DE LARANJEIRA',
       descricao: 'Essa essência possui um suave aroma frutal ideal para ser utilizado em ambientes de confraternização durante o dia. Aconchegante e acolhedor, essa fragrância proporciona sensações de alegria, prosperidade e alivia tensões.',
+      imagem: florl,
     },
     {
       nome: 'FLOR DE CEREJEIRA',
-      descricao: 'Essência floral frutado com notas balsâmicas com teor levemente amadeirado, uma essência top de vendas que remete à harmonia e à paz. É maravilhosa para concentração!'},
-    {
+      descricao: 'Essência floral frutado com notas balsâmicas com teor levemente amadeirado, uma essência top de vendas que remete à harmonia e à paz. É maravilhosa para concentração!',
+      imagem: florc,
+    },
+      {
       nome: 'LAVANDA FRANCESA',
       descricao: 'A essência tem um aroma relaxante e tranquilizante capaz de tornar qualquer espaço mais sofisticado. Traz notas de lavanda com notas cítricas superficiais que harmonizam com os aromas mais marcantes de corpo e fundo. Esse cheirinho cria uma atmosfera pacífica, com toques de requinte e elegância.',
       imagem: lavandaf,
@@ -45,7 +50,7 @@ function App() {
     {
       nome: 'VANILLA',
       descricao: 'A baunilha (ou vanilla) Seu cheirinho traz mais doçura e energia ao ambiente. A Essência Vanilla é docemente aconchegante. As notas de baunilha proporcionam ao ambiente uma energia moderna e marcante. Por suas características estimulantes, eleva o bem-estar. É ideal para ser utilizado em ambientes residenciais, como hall de entrada ou dormitórios.',
-
+      imagem: vanilla
     },
   ]
 
