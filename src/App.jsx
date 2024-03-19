@@ -14,6 +14,8 @@ import florc from "./assets/florCerejeira.jpg"
 import florl from "./assets/florLaranjeira.jpg"
 import vanilla from "./assets/VANILLA.jpg" 
 
+import Gal from './components/Gal'
+
 function App() {
  
   const itens = [ 
@@ -61,6 +63,7 @@ function App() {
     <>
         <Navbar/>
         <Her/>
+      <Gal/>
         <Services/>
 
 
