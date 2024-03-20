@@ -15,6 +15,8 @@ import florl from "./assets/florLaranjeira.jpg"
 import vanilla from "./assets/VANILLA.jpg" 
 
 import Gal from './components/Gal'
+import Especiais from './components/Especiais'
+import Kit from './components/Kit'
 
 function App() {
  
@@ -63,9 +65,11 @@ function App() {
     <>
         <Navbar/>
         <Her/>
-      <Gal/>
-        <Services/>
 
+        
+        <Gal/>
+        <Services/>
+        <Especiais/>
 
         <div className='mb-16' id='catalago'>     
         <div className='bg-gradient-to-r from-[hsla(47,100%,95%,1)] from-10% via-secondary via-30% to-[rgba(255,241,189,0.35)] p-5'>
@@ -81,12 +85,20 @@ function App() {
         </div>
         </div>
       
+        <Kit/>      
         <div id ="sobrenos">
           <About/>
         </div>
         
-        <CTA/> 
-        <Footer/>
+
+        <div id="cta">
+          <CTA/>
+        </div>
+        
+        <div className="footer">
+          <Footer/>
+        </div>
+        
     </>
   )
 }
