@@ -5,7 +5,7 @@ import vellas from "../assets/vellas.png"
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar sticky top-0 z-50 shadow-lg bg-gradient-to-r from-[#ddc3a1] to-neutral p-2">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -17,9 +17,9 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-    <div className="navbar-center mb-[1.5em]">
+    <div className="navbar-center">
         <img 
-        className="h-14 sm:h-24" 
+        className="h-24 sm:h-22 p-[0.5em]" 
         src={vellas} alt="a"
         />
     </div>
