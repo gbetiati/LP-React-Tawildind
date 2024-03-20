@@ -85,7 +85,7 @@ function App() {
         </div>
         </div>
       
-        <Kit/>      
+      
         <div id ="sobrenos">
           <About/>
         </div>

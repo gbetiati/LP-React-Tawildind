@@ -5,7 +5,7 @@ import vellas from "../assets/vellas.png"
 
 const Navbar = () => {
   return (
-    <div className="navbar sticky top-0 z-50 shadow-lg bg-gradient-to-r from-[#f3f2f0] to-[#fffde2]">
+    <div className="navbar sticky top-0 z-50 shadow-lg bg-gradient-to-r from-[#f3f2f0] to-[#fffde3]">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">

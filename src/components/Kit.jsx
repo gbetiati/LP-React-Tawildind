@@ -3,11 +3,11 @@ import kit from "../assestsespeciais/KIT.jpg"
 
 const Kit = () => {
     return (
-<div className="container">
-<div className="hero min-h-auto bg-base-50">
-  <div className="hero-content  p-8 flex-col lg:flex-row-reverse">
-    <img src={kit} className="max-w-auto min-w-[22em] md: max-w-[20em] rounded-lg shadow-2xl" />
-    <div>
+
+<div className="hero  max-w-screen-sm bg-base-200">
+  <div className="hero-content flex-col lg:flex-row-reverse">
+    <img src={kit} className="max-w-sm rounded-lg shadow-2xl" />
+ <div>
       <h1 className="text-5xl font-bold p-8 text-primary">Kits para presente</h1>
       <p className="py-6 font-semibold">
 
@@ -20,9 +20,14 @@ const Kit = () => {
       </p>
       <button className="btn btn-secondary m-8 shadow-lg"> <a href="#footer">Saiba mais</a></button>
     </div>
-   </div> 
+    <div>
+      <h1 className="text-5xl font-bold">Box Office News!</h1>
+      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button className="btn btn-primary">Get Started</button>
+    </div>
   </div>
 </div>
+
     )
 }
 
