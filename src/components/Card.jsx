@@ -11,7 +11,7 @@ import React from "react"
                 <a className=" mt-4 text-2xl leading-tight font-bold text-black hover:underline">{nome}</a>
                 <p className="mt-4 font-semibold">{descricao}</p>
                 <br />
-                <div className="badge badge-accent opacity-90"> R$ 90,00</div>
+                <div className="badge badge-accent opacity-90"> R$ 80,00</div>
                 
               </div>
             </div>

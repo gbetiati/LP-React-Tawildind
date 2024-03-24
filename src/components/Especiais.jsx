@@ -32,7 +32,7 @@ const Especiais = () => {
     <div class="mt-4">
       <h3 class="title-font mb-1 text-xs tracking-widest text-gray-500">Vela aromática</h3>
       <h2 class="title-font text-lg font-medium text-gray-900">Molde flor</h2>
-      <p class="mt-1">R$ 50,00</p>
+      <p class="mt-1">R$ 40,00</p>
     </div>
   </div>
 
