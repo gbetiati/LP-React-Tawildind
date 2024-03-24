@@ -8,7 +8,7 @@ const Her = () => {
             <div className="hero-overlay bg-opacity-50"></div>
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
-                <h1 className="mb-8 text-3xl sm:text-5xl font-bold text-[#3a2000ec]">Seja bem vindo</h1>
+                <h1 className="mb-8 text-3xl sm:text-5xl font-semibold text-[#3a2000ec]">Seja bem vindo</h1>
                 
 
                 

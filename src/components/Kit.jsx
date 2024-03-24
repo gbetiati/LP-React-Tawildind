@@ -15,13 +15,13 @@ const Kit = () => {
       <div className="hero-content flex-col lg:flex-row ">
         <div className="mt-8">
         <img
-          width={380} 
+          width={280} 
            src={kit}
            className="max-w-sm rounded-md shadow-2xl" />
         </div>
         <div>
           
-        <h1 className="text-3xl font-bold p-8 text-primary">Escolha seu pacote</h1>
+        <h1 className="text-2xl font-bold p-8 text-primary">Escolha seu pacote</h1>
       <p className="py-6 font-semibold">
 
             1 Difusor de varetas e 1 vela aromática 
