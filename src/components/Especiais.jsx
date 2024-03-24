@@ -8,20 +8,20 @@ import esp1 from "../assestsespeciais/especial1.jpg"
 
 const Especiais = () => {
     return(
-<section className='py-10 md:py-16'>
-        <div className='container'>
-          <div className='text-center mt-12'>
-            <div className="divider divider-primary">
-                
-            <h2 className=' text-3xl text-black my-5 sm:text-5xl font-bold'> 
-            Especiais </h2>
-                </div>
-          </div>
-          
-          <div class="container mx-auto px-5 py-10">
+    <section className='py-10 mb-10 md:py-16'>
+            <div className='container'>
+              <div className='text-center mt-12'>
+                <div className="divider divider-primary">
+                    
+                <h2 className=' text-3xl text-black my-5 sm:text-5xl font-bold'> 
+                Especiais </h2>
+                    </div>
+              </div>
+              
+              <div class="container mx-auto px-5 py-10">
 
-<div class=" grid grid-cols-2 md:grid-cols-4">
-  
+    <div class="grid grid-cols-2 md:grid-cols-4">
+      
   
   
  
@@ -71,13 +71,13 @@ const Especiais = () => {
   </div>
 
 
-</div>
-</div>
+  </div>
+  </div>
          
 
        
-        </div>
-      </section>
+  </div>
+  </section>
 
 
 

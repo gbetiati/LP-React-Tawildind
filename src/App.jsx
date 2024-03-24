@@ -64,17 +64,23 @@ function App() {
   return (
     <>
         <Navbar/>
-        <Her/>
+
+        <div id="top"> 
+          <Her/>
+        </div>
+      
 
         
         <Gal/>
         <Services/>
-        <Especiais/>
 
-        <div className='mb-16' id='catalago'>     
-        <div className='bg-gradient-to-r from-[hsla(47,100%,95%,1)] from-10% via-secondary via-30% to-[rgba(255,241,189,0.35)] p-5'>
+       
+        
+
+        <div className='container mb-16' id='catalago'>     
+        <div className='p-5'>
         <h2 className="divider divider-primary mb-16 text-3xl sm:text-5xl font-bold my-16 text">Catálago</h2>
-        <div class="my-4 grid grid-cols-1 gap-8 md:grid-cols-2  xl:grid-cols-3">
+        <div class="my-4 grid grid-cols-1 gap-8 md:grid-cols-2  ">
         {itens.map(item => <Card
           key={item.nome}
           nome={item.nome}
@@ -85,15 +91,22 @@ function App() {
         </div>
         </div>
       
-      
+        <div id='especiais'>
+          <Especiais/>
+        </div>
+        
+        <Kit/>
+
+        <div id="cta">
+          <CTA/>
+        </div>
+
         <div id ="sobrenos">
           <About/>
         </div>
         
 
-        <div id="cta">
-          <CTA/>
-        </div>
+      
         
         <div className="footer">
           <Footer/>

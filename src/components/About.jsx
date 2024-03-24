@@ -5,9 +5,8 @@ const About = () => {
 
     return ( 
       
-       
      <div className="container text-left mb-36 mt-36">
-       <div className="hero min-h-[38em] rounded-tl-lg bg-gradient-to-r from-[#FFE4C4]">
+       <div className="hero min-h-[38em] rounded-tl-lg bg-gradient-to-r from-[#b1a99de7]">
         <div className="hero-content mr-16 p-1 flex-col md:flex-row-reverse justify-center items-center gap-6">
         <img src={vellas}  className="p-10 ml-14" />
             <div className="flex flex-col ml-14 w-full md:flex-col justify-center items-center gap-6 text-center md:text-start">

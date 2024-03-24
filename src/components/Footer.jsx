@@ -3,7 +3,7 @@ import vellas from "../assets/vellas.png"
 
 export const Footer = () => {
     return (
-        <footer className="footer footer-center h-[20em] p-12 bg-gray-400 text-base-content rounded">
+        <footer className="footer footer-center h-[20em] p-12 bg-gradient-to-r from-[#f3f2f0] to-[#f1f1ee] ext-base-content rounded">
         <nav>
 
           

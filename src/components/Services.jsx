@@ -6,7 +6,7 @@ const Services = () => {
       <section className='py-10 md:py-16'>
         <div className='container'>
           <div className='text-center mt-12'>
-            <h2 className=' text-3xl text-primary sm:text-5xl font-bold mb-4'> 
+            <h2 className=' text-3xl text-black sm:text-5xl font-bold mb-4'> 
             O que fazemos </h2>
             <p className='text-lg sm:text-2xl mb-6 md:mb-14'>
               Produção de velas com material 100% orgânico
@@ -14,7 +14,7 @@ const Services = () => {
           </div>
   
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 lg:gap-8 xl:gap-10'>
-            <div className="card card-normal bg-gradient-to-r from-[#e7d8a759] via-amber-50 to-[#e7d8a759] transform-gpu transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+            <div className="card card-normal bg-gradient-to-r from-[#b1a99d80] via-[#f1f1f06c] to-[#b1a99d80] transform-gpu transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
               <div className="card-body items-center text-center gap-4">
                 
 
@@ -31,7 +31,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="card card-normal bg-gradient-to-r from-[#e7d8a759] via-amber-50 to-[#e7d8a759] transform-gpu transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+            <div className="card card-normal bg-gradient-to-r from-[#b1a99d80] via-[#f1f1f06c] to-[#b1a99d80] transform-gpu transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
               <div className="card-body items-center text-center gap-4">
               
                 <p className="mb-16">
@@ -46,7 +46,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="card card-normal bg-gradient-to-r from-[#e7d8a759] via-amber-50 to-[#e7d8a759] transform-gpu transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+            <div className="card card-normal bg-gradient-to-r from-[#b1a99d80] via-[#f1f1f06c] to-[#b1a99d80] transform-gpu transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
               <div className="card-body items-center text-center gap-4">
 
               <p className="mb-12">
